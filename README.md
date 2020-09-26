@@ -14,7 +14,7 @@ While working on issues, the following react component architecture may be helpf
 ## Installation
 1. Clone the repo: 
 ```
-git clone
+git clone https://github.com/hannahlivnat/Ask-EDD-Project.git
 ```
 2. Run npm install
 ```
@@ -32,6 +32,7 @@ yarn dev
 
 ## CONTRIBUTORS
 [Hannah Livnat](https://github.com/hannahlivnat) - Software Engineer, Project Leader
+
 [Danielle Nedivi](https://www.linkedin.com/in/daniellenedivi/) - UX/UI Designer, Project Leader
 
 
