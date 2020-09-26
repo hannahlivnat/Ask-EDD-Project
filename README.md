@@ -1,10 +1,24 @@
-This is a front-end application serving as a mock-up of an alternative California Ask EDD page. This site addresses several concerns and frustrations of Californian's experiencing unemployment during the pandemic -- hard to find answers, overload of content, difficulty in navigating through information, and inaccessible contact information.
+## WELCOME TO THE ASK EDD PROJECT
+---------------------------
 
-For further information, please refer to our [wiki page]().
+This is a front-end application serving as a mock-up of an alternative California Ask EDD page. This site addresses several concerns and frustrations of Californians experiencing unemployment during the pandemic -- hard to find answers, an overload of content, difficulty in navigating through information, and inaccessible contact information.
 
-## HOW TO RUN APPLICATION IN DEVELOPMENT
+For further information, please refer to our [wiki page](https://github.com/hannahlivnat/Ask-EDD-Project/wiki).
 
-First, run the development server:
+## WOULD YOU LIKE TO CONTRIBUTE?
+
+If you'd like to contribute to this project, please seek the [wiki page](https://github.com/hannahlivnat/Ask-EDD-Project/wiki) and [contributing guidelines]().
+
+## Installation
+1. Clone the repo: 
+```
+git clone
+```
+2. Run npm install
+```
+npm install
+```
+3. Run Dev Server:
 
 ```bash
 npm run dev
@@ -12,15 +26,14 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-## 
+## CONTRIBUTORS
+[Hannah Livnat](https://github.com/hannahlivnat) - Software Engineer, Project Leader
+[Danielle Nedivi](https://www.linkedin.com/in/daniellenedivi/) - UX/UI Designer, Project Leader
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
 
 
