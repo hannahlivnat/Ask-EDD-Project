@@ -1,6 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a front-end application serving as a mock-up of an alternative California Ask EDD page. This site addresses several concerns and frustrations of Californian's experiencing unemployment during the pandemic -- hard to find answers, overload of content, difficulty in navigating through information, and inaccessible contact information.
 
-## Getting Started
+For further information, please refer to our [wiki page]().
+
+## HOW TO RUN APPLICATION IN DEVELOPMENT
 
 First, run the development server:
 
@@ -10,11 +12,9 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
+## 
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -23,8 +23,4 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
