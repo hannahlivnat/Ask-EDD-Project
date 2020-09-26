@@ -7,7 +7,7 @@ For further information, please refer to our [wiki page](https://github.com/hann
 
 ## WOULD YOU LIKE TO CONTRIBUTE?
 
-If you'd like to contribute to this project, please seek the [wiki page](https://github.com/hannahlivnat/Ask-EDD-Project/wiki) and [contributing guidelines]().
+If you'd like to contribute to this project, please seek the [wiki page](https://github.com/hannahlivnat/Ask-EDD-Project/wiki) and [contributing guidelines](https://github.com/hannahlivnat/Ask-EDD-Project/blob/main/contributing.md).
 
 ## Installation
 1. Clone the repo: 
