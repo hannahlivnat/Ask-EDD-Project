@@ -4,7 +4,7 @@ module.exports = {
         es6: true,
         node: true,
     },
-    extends: ["airbnb", "eslint:recommended", "plugin:react/recommended"],
+    extends: ["eslint:recommended", "plugin:react/recommended"],
     parser: "babel-eslint",
     parserOptions: {
         ecmaFeatures: {
