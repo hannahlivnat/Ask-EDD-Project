@@ -2,7 +2,7 @@
 name: New Dev Issue For Project Board
 about: Add Issue to Project Board
 title: ''
-labels: ''
+labels: Dev
 assignees: ''
 
 ---
