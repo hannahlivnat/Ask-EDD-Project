@@ -5,7 +5,7 @@ context('Actions', () => {
 
   it('Opens automatically to help center page', () => {
 
-    cy.get('.Home_container__1EcsU')
+    cy.get('div')
       .should('contain', 'hello')
   })
 });
