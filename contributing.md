@@ -68,7 +68,7 @@ If you've found a bug in this repo, create an issue and provide the following in
 
 ### Make a Code Contribution
 
-If you'd like to contribute, take a look at the [project board]() to select an issue that'd be a good fit for you.
+If you'd like to contribute, take a look at the [project board]() to select an issue that'd be a good fit for you. Go by level to select your issue. Example: do not select a level 3 issue when there are still level 2 issues on the To Do board. 
 
   * Beginner issues - issues that are accessible to beginners.
   * Help wanted issues - issues that are more involved than beginner issues
