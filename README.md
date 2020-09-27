@@ -5,7 +5,7 @@ This is a front-end application serving as a mock-up of an alternative Californi
 
 ## WOULD YOU LIKE TO CONTRIBUTE?
 
-If you'd like to contribute to this project, please see the [contributing guidelines](https://github.com/hannahlivnat/Ask-EDD-Project/blob/main/contributing.md).
+If you'd like to contribute to this project, please see the [contributing guidelines](https://github.com/hannahlivnat/Ask-EDD-Project/blob/production/contributing.md).
 
 While working on issues, the following react component architecture may be helpful in understanding the flow of components: 
 
