@@ -1,13 +1,16 @@
-name: CI_Frontend
+name: PR_Frontend_Dev
 
 on: 
   pull_request: 
+    branches: 
+      -dev
 
 jobs: 
   build: 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout Repo Code
+      uses: actions/checkout@v1
     - name: Install Packages
       run: npm install
     - name: Lint
