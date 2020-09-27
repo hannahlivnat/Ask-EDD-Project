@@ -21,6 +21,7 @@ module.exports = {
     plugins: ["react", "react-hooks"],
     rules: {
         "linebreak-style": "off",
+        "react/react-in-jsx-scope": "off",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "arrow-parens": ["error", "as-needed"],
@@ -34,5 +35,8 @@ module.exports = {
             },
         ],
         "template-curly-spacing": "off",
+    },
+    globals: {
+        "React": "writable",
     },
 };
