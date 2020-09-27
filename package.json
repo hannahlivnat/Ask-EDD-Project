@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint './**/*.js*'"
+    "lint": "eslint './**/*.js*'",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "next": "9.5.3",
