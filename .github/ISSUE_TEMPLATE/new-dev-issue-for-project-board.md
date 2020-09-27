@@ -7,8 +7,11 @@ assignees: ''
 
 ---
 
-## When adding an issue to the project board for dev: 
-[ ] Descriptive title
+## This Issue is Complete When: 
 [ ] Create a checklist of what's expected to complete issue
-[ ] Include link to Figma mockup
-[ ] Add dev label
+
+## Figma Mockup: https://www.figma.com/file/SYCaUO0bX527hsjRt1ZioC/EDD-Help-Page?node-id=0%3A1
+
+## Screenshots: 
+
+*** Include screenshots of component from Figma Mockup ***
