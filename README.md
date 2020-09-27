@@ -30,6 +30,12 @@ yarn dev
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
+## Testing
+
+[![edd-project-dev-tests](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/xq3459/dev&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/xq3459/runs)
+
+To Run Tests : npx cypress open
+
 ## CONTRIBUTORS
 [Hannah Livnat](https://github.com/hannahlivnat) - Software Engineer, Project Leader
 
