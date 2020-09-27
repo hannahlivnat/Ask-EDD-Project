@@ -3,9 +3,9 @@ context('Actions', () => {
     cy.visit('/')
   })
 
-  it('Opens automatically to help center page', () => {
+  //it('Opens automatically to help center page', () => {
 
-    cy.get('div')
-      .should('contain', 'hello')
-  })
+  //  cy.get('div')
+  //    .should('contain', 'hello')
+  //})
 });
