@@ -1,0 +1,25 @@
+name: PR_Frontend_Dev
+
+on: 
+  pull_request: 
+    branches: 
+      -production
+
+jobs: 
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo Code
+      uses: actions/checkout@v1
+    - name: Install Packages
+      run: npm install
+    - name: Lint
+      run: npm run lint
+    - name: Build project
+      run: npm run build
+    - name: Run Tests
+      uses: cypress-io/github-action@v1
+      with: 
+        spec: cypress/integration/spec.js
+        wait-on: https://ask-edd-project.vercel.app/
+        record: true
