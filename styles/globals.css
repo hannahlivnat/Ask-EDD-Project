@@ -1,9 +1,11 @@
 html,
-body {
+body,
+#__next {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -12,5 +14,43 @@ a {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  min-height: 100%;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 90px 217px auto 207px;
+      grid-template-rows: 90px 217px auto 207px;
+      grid-template-areas: "navigation-area" "header-area" "main-area" "footer-area";
+}
+
+.container nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: navigation-area;
+}
+
+.container .header {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: header-area;
+}
+
+.container .main-container {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: main-area;
+}
+
+.container footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer-area;
+}
+/*# sourceMappingURL=globals.css.map */
