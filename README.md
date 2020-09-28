@@ -9,7 +9,7 @@ If you'd like to contribute to this project, please see the [contributing guidel
 
 While working on issues, the following react component architecture may be helpful in understanding the flow of components: 
 
-![Image of Site Architecture](./assets/react-component-architecture.png)
+![Image of Site Architecture](./public/react-component-architecture.png)
 
 ## Installation
 1. Clone the repo: 
