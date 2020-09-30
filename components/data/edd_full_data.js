@@ -103,6 +103,47 @@ import CalJobsSocialSecurity from './articles/caljobs/create_update_accout/why_c
 import CalJobsChangePersonalInfo from './articles/caljobs/create_update_accout/make_changes_to_personal_info'
 import CalJobsChangeName from './articles/caljobs/create_update_accout/how_to_change_name'
 import CalJobsHowSecureIsInfo from './articles/caljobs/create_update_accout/how_secure_is_information'
+import CalJobsReportSystemProblem from './articles/caljobs/account_problem/report_system_problem'
+import CalJobsForgotPasswordUser from './articles/caljobs/account_problem/forgot_password_or_userid'
+import CalJobsJobListingLength from './articles/caljobs/job_search/how_long_job_listing_in_system'
+import CalJobsResume from './articles/caljobs/job_search/caljobs_resume'
+import CalJobsFindStateOrFedJob from './articles/caljobs/job_search/find_state_or_fed_job'
+//LABORMARKET ARTICLES
+import LaborMarketWageDataByOcc from './articles/labor_market_info/wage_data_and_resources/wage_data_by_occ'
+import LaborMarketMinWage from './articles/labor_market_info/wage_data_and_resources/min_wage_ca'
+import LaborMarketUnemployRate from './articles/labor_market_info/wage_data_and_resources/unemployment_rate_in_my_city'
+import LaborMarketTopEmployers from './articles/labor_market_info/wage_data_and_resources/list_top_employers'
+import LaborMarketWageDisagreement from './articles/labor_market_info/employee_rights/wages_owed_disagreement'
+import LaborMarketOvertime from './articles/labor_market_info/employee_rights/when_owed_overtime'
+import LaborMarketLaidOffFinalPay from './articles/labor_market_info/employee_rights/laid_off_no_final_check'
+import LaborMarketBenefitsEntitled from './articles/labor_market_info/employee_rights/employee_benefits_entitled'
+import LaborMarketSexualHarrassment from './articles/labor_market_info/employee_rights/sexual_harrassment_claim'
+import LaborMarketLaborLaw from './articles/labor_market_info/wage_data_and_resources/labor_law'
+//PAYROLL ARTICLES
+import PayrollEnrollment from './articles/payroll_tax/eservices_for_business/payrollenrollment'
+import PayrollUsernamePassword from './articles/payroll_tax/eservices_for_business/payroll_username_and_password'
+import PayrollUniqueEmail from './articles/payroll_tax/eservices_for_business/payroll_unique_email'
+import PayrollEnrollmentConfirm from './articles/payroll_tax/eservices_for_business/payroll_enrollment_confirmation_email'
+import PayrollMultipleClient from './articles/payroll_tax/eservices_for_business/payroll_multiple_client_accounts'
+import PayrollNewEmployeeReport from './articles/payroll_tax/eservices_for_business/report_new_employees'
+import PayrollIndependentContractReport from './articles/payroll_tax/eservices_for_business/report_independent_contractors'
+import PayrollNo from './articles/payroll_tax/eservices_for_business/no_payroll'
+import PayrollTaxWageReport from './articles/payroll_tax/electronic_filing/tax_wage_report'
+import PayrollBulkTransmissions from './articles/payroll_tax/electronic_filing/bulk_transmissions'
+import PayrollVendorPayments from './articles/payroll_tax/electronic_filing/vendor_payments'
+import PayrollReserveAccountInfo from './articles/payroll_tax/ui_rates_reserve_account/payroll_reserve_account'
+import PayrollClaimFiled from './articles/payroll_tax/ui_rates_reserve_account/payroll_claims_filed'
+import PayrollReplacementCopy from './articles/payroll_tax/ui_rates_reserve_account/payroll_replacement_ui_rate'
+import PayrollUiRates from './articles/payroll_tax/ui_rates_reserve_account/payroll_ui_rates'
+import PayrollEmployerTaxNumber from './articles/payroll_tax/registration/payroll_employer_account_number'
+import PayrollBusinessChanges from './articles/payroll_tax/registration/payroll_changes_to_business'
+import PayrollElectronicFunds from './articles/payroll_tax/other/payroll_electronic_transfer'
+import PayrollWageHistory from './articles/payroll_tax/other/payroll_wage_history'
+import PayrollAdjustTax from './articles/payroll_tax/other/payroll_adjust_tax'
+import PayrollMultistateEmployment from './articles/payroll_tax/other/payroll_multistate_employment'
+import PayrollW2And1099s from './articles/payroll_tax/other/payroll_w2_and_1099s'
+import PayrollTaxSeminars from './articles/payroll_tax/other/payroll_tax_seminars'
+
 //Full EDD Category and Article Data =================================================================================
 const eddData = {
   "Benefit Programs Online (BPO)": {
@@ -288,39 +329,116 @@ const eddData = {
       "What is Paid Family Leave?": <PFLWhatIs />,
       "Do I Qualify for Paid Family Leave Benefits": <PFLQualify />,
       "How Do I File a New Claim?": <PFLFileClaim />,
-      "How Can I Order a Paid Family Leave Claim Form(s)?": <PFLOrderClaim />,
-      "How Long May a Person Receive Paid Family Leave Benefits": <PFLHowLong />,
+      "How Can I Order a Paid Family Leave Claim Form(s)?": (
+        <PFLOrderClaim />
+      ),
+      "How Long May a Person Receive Paid Family Leave Benefits": (
+        <PFLHowLong />
+      ),
     },
   },
   "Workforce Services": {
     "General": {
-      "What is the Eligible Training Provider List (ETPL)?": <WhatIsETPL />,
+      "What is the Eligible Training Provider List (ETPL)?": (
+        <WhatIsETPL />
+      ),
     },
     "Resources": {
       "Where Can I Get Training": <WorkTraining />,
       "Where Can I Find Employment Opportunities?": <EmploymentOpp />,
-    }
+    },
   },
   "CalJOBS": {
     "Create / Update Account": {
       "How to Register in CalJOBS": <CalJobsRegister />,
-      "Why Do You Need My Social Security Number?": <CalJobsSocialSecurity />,
-      "How Can I Make Changes to My Personal Information": <CalJobsChangePersonalInfo />,
+      "Why Do You Need My Social Security Number?": (
+        <CalJobsSocialSecurity />
+      ),
+      "How Can I Make Changes to My Personal Information": (
+        <CalJobsChangePersonalInfo />
+      ),
       "How Can I Change My Name?": <CalJobsChangeName />,
       "How Secure is My Information?": <CalJobsHowSecureIsInfo />,
     },
     "Account Problem": {
-
+      "Report a CalJobs System Problem": <CalJobsReportSystemProblem />,
+      "Forgot Password and/or User ID": <CalJobsForgotPasswordUser />,
     },
     "Job Search": {
-
+      "How Long is a Job Listing in the System": (
+        <CalJobsJobListingLength />
+      ),
+      "CalJOBS Resume": <CalJobsResume />,
+      "How to Find a State or Federal Job": <CalJobsFindStateOrFedJob />,
     },
-    "Labor Market Information": {
-
-    }
   },
-  "Labor Market Information": {},
-  "Payroll Tax": {},
+  "Labor Market Information": {
+    "Wage Data and Resources": {
+      "Where Can I Find Wage Data by Occupation": (
+        <LaborMarketWageDataByOcc />
+      ),
+      "What is the Minimum Wage in California?": <LaborMarketMinWage />,
+      "Where Can I Find the Unemployment Rate for My City?": (
+        <LaborMarketUnemployRate />
+      ),
+      "Where Can I Find a List of the Employment Rates for My City?": (
+        <LaborMarketUnemployRate />
+      ),
+      "Where Can I Find a List of Top Employers in My Area?": (
+        <LaborMarketTopEmployers />
+      ),
+      "Where Can I Find Labor Law and EEO Posters?": <LaborMarketLaborLaw />,
+    },
+    "Employee Rights": {
+      "My Employer and I Disagree About the Wages I Am Owed": (
+        <LaborMarketWageDisagreement />
+      ),
+      "When Does My Employe Have to Pay Overtime?": <LaborMarketOvertime />,
+      "My Employer Laid me Off, but Has Not Given me a Final Paycheck?": (
+        <LaborMarketLaidOffFinalPay />
+      ),
+      "What Benefits are Employees Entitled to?": (
+        <LaborMarketBenefitsEntitled />
+      ),
+      "Sexual Harrassment Information": <LaborMarketSexualHarrassment />,
+    },
+  },
+  "Payroll Tax": {
+    "e-Services for Business": {
+      "Enrollment": <PayrollEnrollment />,
+      "Username and Password": <PayrollUsernamePassword />,
+      "Unique Email Address": <PayrollUniqueEmail />,
+      "Enrollment Confirmation Email": <PayrollEnrollmentConfirm />,
+      "Add Multiple Client Accounts": <PayrollMultipleClient />,
+      "Report of New Employees": <PayrollNewEmployeeReport />,
+      "Report of Independent Contractors": <PayrollIndependentContractReport />,
+      "No Payroll": <PayrollNo />,
+    },
+    "Electronic Filing": {
+      "Tax and Wage Report Forms": <PayrollTaxWageReport />,
+      "Bulk Transmissions (XML and Web Services)": <PayrollBulkTransmissions />,
+      "Vendor Payments for Payroll Tax Deposit": <PayrollVendorPayments />,
+    },
+    "UI Rates & Reserve Account Information": {
+      "Form 1099G": <UIOForm1099g />,
+      "Reserve Account Information": <PayrollReserveAccountInfo />,
+      "Claims Filed Against My Reserve Account": <PayrollClaimFiled />,
+      "Replacement Copy of UI Rate Notice": <PayrollReplacementCopy />,
+      "UI Rates": <PayrollUiRates />,
+    },
+    "Registration": {
+      "Employer Payroll Tax Account Number": <PayrollEmployerTaxNumber />,
+      "Changes for My Business": <PayrollBusinessChanges />,
+    },
+    "Other": {
+      "Electronic Funds Transfer Payment": <PayrollElectronicFunds />,
+      "Wage History": <PayrollWageHistory />,
+      "Adjust Tax and Wage Reports": <PayrollAdjustTax />,
+      "Multistate Employment": <PayrollMultistateEmployment />,
+      "W-2s and 1099s": <PayrollW2And1099s />,
+      "Payroll Tax Seminars": <PayrollTaxSeminars />,
+    },
+  },
 };
 
 export default eddData;
