@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    //import directly from root of project
+    "baseUrl": "."
+  } 
+}
