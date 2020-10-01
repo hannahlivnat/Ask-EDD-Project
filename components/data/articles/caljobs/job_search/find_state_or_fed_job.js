@@ -1,5 +1,5 @@
 import Article from "../../../../common/article";
-import USAJobsLink from '../../common_links/usa_jobs'
+import USAJobsLink from '../../common_links/jobs_resources/usa_jobs'
 import calHR from '../../../contact/cal_hr'
 export default function find_state_or_fed_job() {
   return (

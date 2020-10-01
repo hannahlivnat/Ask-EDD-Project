@@ -1,13 +1,13 @@
-import UIOnlineLink from '../../common_links/ui_online_link'
-import RegisterLink from '../../common_links/register_link'
+import Article from '../../../../common/article'
+import UIOnlineLink from '../../common_links/uionline/ui_online_link'
+import RegisterLink from '../../common_links/uionline/register_link'
 
 export default function uio_commission_residual_etc() {
-  return(
-    <div className="article-div">
-      <h4>Commission, Residual and Other Pay</h4>
+  return (
+    <Article h4="Commission, Residual and Other Pay">
       <p>
-            All work and/or earnings must be reported on your Continued Claim
-            Form, DE 4581, including:
+              All work and/or earnings must be reported on your Continued Claim
+              Form, DE 4581, including:
       </p>
       <div className="article-div-row">
         <ul>
@@ -37,14 +37,14 @@ export default function uio_commission_residual_etc() {
       </div>
       <p>On question 6a: report the earnings before deductions.</p>
       <p>
-            If you received any type of payments listed above, on question 6b:
+              If you received any type of payments listed above, on question 6b:
       </p>
       <ul>
         <li>Report the total hours worked.</li>
         <li>Report employer name and mailing address.</li>
         <li>
-                In the Reason No Longer Working column, report the type of
-                payment (e.g. commission, bonus, residual, etc.).
+                  In the Reason No Longer Working column, report the type of
+                  payment (e.g. commission, bonus, residual, etc.).
         </li>
       </ul>
       <p>
@@ -53,24 +53,24 @@ export default function uio_commission_residual_etc() {
             <UIOnlineLink />
           </b>
         </a>
-            : Manage your claim 24 hours a day, seven days a week through UI
-            Onlinesm.
-        <RegisterLink /> or log in to your <UIOnlineLink /> account to:
+              : Manage your claim 24 hours a day, seven days a week through UI
+              Onlinesm. <RegisterLink /> or log in to your <UIOnlineLink /> account to:
       </p>
       <ul>
         <li>Certify for continued benefits.</li>
         <li>View payment information for all processed payments.</li>
         <li>
-                View all scheduled appointments and reschedule a phone interview
-                appointment.
+                  View all scheduled appointments and reschedule a phone
+                  interview appointment.
         </li>
         <li>Update your contact information.</li>
         <li>Reopen an existing claim.</li>
         <li>
-                Access UI information by subcategory and topic under Contact Us.
+                  Access UI information by subcategory and topic under Contact
+                  Us.
         </li>
         <li>Send EDD a question on many topics under Contact Us.</li>
       </ul>
-    </div>
-  )
+    </Article>
+  );
 }

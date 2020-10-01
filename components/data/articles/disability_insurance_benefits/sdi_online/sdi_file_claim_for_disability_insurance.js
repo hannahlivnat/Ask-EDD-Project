@@ -1,9 +1,9 @@
-import BPOLink from '../../common_links/benefits_program_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import Article from '../../../../common/article'
 import OnlineFormsPublications from '../../common_links/online_forms_publications'
 export default function sdi_file_claim_for_disability_insurance() {
-      return (
-  <Article h4="File a Claim for Disability Insurance">
+  return (
+    <Article h4="File a Claim for Disability Insurance">
       <p>
           To file a Disability Insurance (DI) claim in SDI Online, you must
           first complete a one-time registration in Benefit Programs Online
@@ -16,21 +16,21 @@ export default function sdi_file_claim_for_disability_insurance() {
           claim by following these steps:
       </p>
       <ul>
-          <li>
+        <li>
               Log in to your <BPOLink /> account.
-          </li>
-          <li>
+        </li>
+        <li>
               Select <b>SDI Online</b> which will direct you to your <b>Home</b>{" "}
               page.
-          </li>
-          <li>
+        </li>
+        <li>
               Select <b>New Claim</b> from the <b>Menu</b>.
-          </li>
-          <li>
+        </li>
+        <li>
               Select <b>Disability Insurance</b> under the{" "}
-              <b>Apply for Disability Insurance Benefits</b>
+          <b>Apply for Disability Insurance Benefits</b>
               header and complete the required information for you claim.
-          </li>
+        </li>
       </ul>
       <p>
           Once your claim is submitted, you will be provided with a Receipt
@@ -59,6 +59,6 @@ export default function sdi_file_claim_for_disability_insurance() {
           scanned and data is captured in SDI Online for processing. Forms can
           be ordered at no cost to you by visiting <OnlineFormsPublications />.
       </p>
-  </Article>
-      );
+    </Article>
+  );
 }

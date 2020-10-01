@@ -1,5 +1,5 @@
 import Article from "../../../../common/article";
-import EDDDebitCard from '../../common_links/edd_debit_card'
+import EDDDebitCard from '../../common_links/bp_online/edd_debit_card'
 import bankOfAmericaContact from '../../../contact/bank_of_america_contact'
 
 export default function edd_debit_card_general_information() {

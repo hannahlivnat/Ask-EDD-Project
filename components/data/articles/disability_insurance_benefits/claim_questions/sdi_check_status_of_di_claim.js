@@ -1,6 +1,6 @@
 import Article from "../../../../common/article";
-import SDILink from '../../common_links/sdi_online_link'
-import BPOLink from '../../common_links/benefits_program_link'
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 export default function sdi_check_status_of_di_claim() {
   return (
     <Article h4='Can I Check on the Status of My Disability Insurance Claim Online?'>

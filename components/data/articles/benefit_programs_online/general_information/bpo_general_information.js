@@ -1,6 +1,6 @@
-import BPOLink from "../../common_links/benefits_program_link.js";
-import SDILink from '../../common_links/sdi_online_link'
-import UILink from '../../common_links/ui_online_link'
+import BPOLink from "../../common_links/bp_online/benefits_program_link.js";
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
+import UILink from '../../common_links/uionline/ui_online_link'
 
 export default function bpo_general_information() {
   return (

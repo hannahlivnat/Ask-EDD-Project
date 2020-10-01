@@ -1,4 +1,4 @@
-import SDILink from '../../common_links/sdi_online_link'
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
 import Article from '../../../../common/article'
 import contactEdd from '../../../contact/edd_contact'
 export default function sdi_report_return_to_work() {

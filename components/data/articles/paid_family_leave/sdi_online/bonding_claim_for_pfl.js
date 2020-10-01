@@ -1,5 +1,5 @@
 import Article from '../../../../common/article'
-import BPOLink from '../../common_links/benefits_program_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import OnlineFP from '../../common_links/online_forms_publications'
 import FilePflClaim from '../../common_links/pfl_links/file_pfl_claim'
 import eddContact from '../../../contact/edd_contact'

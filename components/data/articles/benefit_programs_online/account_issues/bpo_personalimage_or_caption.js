@@ -1,5 +1,5 @@
 import Article from '../../../../common/article';
-import ContactEDD from '../../common_links/call_edd_link';
+import ContactEDD from '../../common_links/bp_online/call_edd_link';
 
 export default function bpo_personalimage_or_caption() {
   return (

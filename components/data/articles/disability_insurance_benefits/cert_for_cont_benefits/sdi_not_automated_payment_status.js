@@ -1,5 +1,5 @@
 import Article from '../../../../common/article'
-import SDILink from '../../common_links/sdi_online_link'
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
 import eddContact from '../../../contact/edd_contact'
 export default function sdi_not_automated_payment_status(){
   return (

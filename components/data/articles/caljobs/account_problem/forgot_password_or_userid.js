@@ -1,5 +1,5 @@
 import Article from '../../../../common/article'
-import CalJobsLink from '../../common_links/caljobs_link'
+import CalJobsLink from '../../common_links/jobs_resources/caljobs_link'
 import calJobsContact from '../../../contact/caljobs_contact'
 export default function forgot_password_or_userid() {
   return (

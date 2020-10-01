@@ -1,6 +1,6 @@
 import Article from "../../../../common/article";
-import BPOLink from '../../common_links/benefits_program_link'
-import UILink from '../../common_links/ui_online_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
+import UILink from '../../common_links/uionline/ui_online_link'
 import eddContact from "../../../contact/edd_contact";
 
 export default function bpo_overpayments() {

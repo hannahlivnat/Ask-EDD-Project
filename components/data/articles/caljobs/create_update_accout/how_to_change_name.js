@@ -1,6 +1,6 @@
 import Article from "../../../../common/article";
 
-import JobsLinks from '../../common_links/caljobs_link'
+import JobsLinks from '../../common_links/jobs_resources/caljobs_link'
 export default function how_to_change_name() {
   return (
     <Article h4="How Can I Change My Name?">

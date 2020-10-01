@@ -1,5 +1,5 @@
 import Article from "../../../../common/article";
-import BPOLink from "../../common_links/benefits_program_link";
+import BPOLink from "../../common_links/bp_online/benefits_program_link";
 import eddContact from "../../../contact/edd_contact";
 
 export default function bpo_pay_overpayment() {

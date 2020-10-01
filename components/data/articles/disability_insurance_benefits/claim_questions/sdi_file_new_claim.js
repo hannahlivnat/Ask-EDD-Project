@@ -1,6 +1,6 @@
 import Article from "../../../../common/article";
-import SDIOnline from '../../common_links/sdi_online_link'
-import BPOLink from '../../common_links/benefits_program_link'
+import SDIOnline from '../../common_links/sdi_information/sdi_online_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import OnlineFormsPublications from '../../common_links/online_forms_publications'
 import contactEDD from '../../../contact/edd_contact'
 export default function sdi_file_new_claim() {

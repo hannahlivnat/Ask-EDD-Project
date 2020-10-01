@@ -1,5 +1,5 @@
-import BPOLink from '../../common_links/benefits_program_link'
-import OnlineFP from '../../common_links/benefits_program_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
+import OnlineFP from '../../common_links/bp_online/benefits_program_link'
 import Article from '../../../../common/article'
 import FilePFLClaim from '../../common_links/pfl_links/file_pfl_claim'
 import askEdd from '../../../contact/edd_contact'

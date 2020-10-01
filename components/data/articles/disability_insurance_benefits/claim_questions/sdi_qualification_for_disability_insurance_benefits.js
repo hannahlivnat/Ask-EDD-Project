@@ -1,8 +1,8 @@
 import Article from "../../../../common/article"
-import BPOLink from '../../common_links/benefits_program_link'
-import DIEligibility from '../../common_links/di_eligibility'
-import StateDILink from '../../common_links/state_disability_insurance_page'
-import BasePeriodLink from '../../common_links/base_period_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
+import DIEligibility from '../../common_links/tax/di_eligibility'
+import StateDILink from '../../common_links/sdi_information/state_disability_insurance_page'
+import BasePeriodLink from '../../common_links/sdi_information/base_period_link'
 export default function sdi_qualification_for_dib() {
   return (
     <Article h4='Do I Qualify for Disability Insurance Benefits?'>

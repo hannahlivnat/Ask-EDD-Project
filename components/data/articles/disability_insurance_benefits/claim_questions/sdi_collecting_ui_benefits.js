@@ -1,8 +1,8 @@
 import Article from "../../../../common/article";
-import SDILink from '../../common_links/sdi_online_link'
-import BPOLink from '../../common_links/benefits_program_link'
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import OnlineFormPublications from '../../common_links/online_forms_publications'
-import DIEligibility from '../../common_links/di_eligibility'
+import DIEligibility from '../../common_links/tax/di_eligibility'
 export default function sdi_collecting_ui_benefits() {
   return (
     <Article

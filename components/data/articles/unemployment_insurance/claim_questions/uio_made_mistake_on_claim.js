@@ -1,4 +1,4 @@
-import CallEDDLink from "../../common_links/call_edd_link";
+import CallEDDLink from "../../common_links/bp_online/call_edd_link";
 
 export default function uio_made_mistake_on_claim() {
   return (

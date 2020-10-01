@@ -1,5 +1,5 @@
 import Article from "../../../../common/article";
-import CallEdd from "../../common_links/call_edd_link"
+import CallEdd from "../../common_links/bp_online/call_edd_link"
 export default function bpo_replace_lost_damaged_stolen_check() {
   return (
     <Article h4="Replace a Lost, Damaged, or Stolen Check">

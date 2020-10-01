@@ -1,6 +1,6 @@
 import Article from "../../../../common/article";
-import BPOLink from '../../common_links/benefits_program_link'
-import SDIPhysicianTutorial from '../../common_links/sdi_tutorial_for_physician'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
+import SDIPhysicianTutorial from '../../common_links/sdi_information/sdi_tutorial_for_physician'
 export default function sdi_physician_practitioner_cert_for_benefits(){
   return (
     <Article h4="Physician/Practitioner Certifying for Benefits">

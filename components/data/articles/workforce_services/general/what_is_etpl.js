@@ -1,5 +1,5 @@
 import Article from "../../../../common/article";
-import AmericanJobCenterLink from "../../common_links/american_jobs_link";
+import AmericanJobCenterLink from "../../common_links/jobs_resources/american_jobs_link";
 import EligibleTraining from '../../common_links/jobs_resources/eligible_training'
 import TrainingProviders from '../../common_links/jobs_resources/training_providers'
 

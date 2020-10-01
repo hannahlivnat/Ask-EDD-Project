@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 import Article from "../../../../common/article";
-import BPOLink from "../../common_links/benefits_program_link";
+import BPOLink from "../../common_links/bp_online/benefits_program_link";
 
 export default function bpo_update_my_profile() {
   return (

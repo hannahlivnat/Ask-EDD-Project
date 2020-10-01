@@ -1,5 +1,5 @@
 import Article from "../../../../common/article";
-import EDDDebitCardLink from '../../common_links/edd_debit_card'
+import EDDDebitCardLink from '../../common_links/bp_online/edd_debit_card'
 
 export default function edd_debit_card_fees() {
   return (

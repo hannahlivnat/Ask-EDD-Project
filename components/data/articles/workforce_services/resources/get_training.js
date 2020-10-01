@@ -1,4 +1,4 @@
-import AmericanJobCenterLink from "../../common_links/american_jobs_link";
+import AmericanJobCenterLink from "../../common_links/jobs_resources/american_jobs_link";
 import Article from '../../../../common/article'
 export default function get_training(){
   return (

@@ -1,4 +1,4 @@
-import CallEDDLink from "../../common_links/call_edd_link";
+import CallEDDLink from "../../common_links/bp_online/call_edd_link";
 
 export default function uio_missing_wages_from_claim() {
   return (

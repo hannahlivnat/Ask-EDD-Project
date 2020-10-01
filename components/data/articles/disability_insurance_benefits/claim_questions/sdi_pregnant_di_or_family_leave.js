@@ -1,7 +1,7 @@
 import Article from '../../../../common/article'
-import BPOLink from '../../common_links/benefits_program_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import OnlineFormsPublications from '../../common_links/online_forms_publications'
-import SDILink from '../../common_links/sdi_online_link'
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
 import PregancyFAQ from '../../common_links/pregancy/pregnancy_faq'
 
 export default function sdi_pregnant_di_or_family_leave() {

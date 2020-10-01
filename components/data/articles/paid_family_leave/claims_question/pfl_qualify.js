@@ -1,6 +1,6 @@
-import BPOLink from '../../common_links/benefits_program_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import Article from '../../../../common/article'
-import BaseLink from '../../common_links/base_period_link'
+import BaseLink from '../../common_links/sdi_information/base_period_link'
 import StateDisabilityInsurance from '../../common_links/sdi_information/sdi_link_site'
 export default function pfl_qualify() {
   return (

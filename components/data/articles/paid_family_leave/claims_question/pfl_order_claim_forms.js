@@ -1,6 +1,6 @@
 import OnlineFormPublication from '../../common_links/online_forms_publications'
-import SDIOnlineLink from '../../common_links/sdi_online_link'
-import BPOLink from '../../common_links/benefits_program_link'
+import SDIOnlineLink from '../../common_links/sdi_information/sdi_online_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import Article from '../../../../common/article'
 import eddContact from '../../../contact/edd_contact'
 

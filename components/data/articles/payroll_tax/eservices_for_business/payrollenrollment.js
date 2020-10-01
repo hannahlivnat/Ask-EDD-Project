@@ -1,19 +1,17 @@
+import Article from '../../../../common/article'
+import EservicesLink from '../../common_links/employer_resources/eservices_for_business'
+import EservicesFAQLink from '../../common_links/jobs_resources/faq_eservices_for_business'
+import taxPayerContact from '../../../contact/tax_assistance'
+
 export default function payrollenrollment() {
   return (
-    <div className="article-div">
-      <h4>Enrollment</h4>
+    <Article h4="Payroll Enrollment">
       <p>
-              To get assistance with enrolling or using{" "}
-        <a href="https://eddservices.edd.ca.gov/index.html">
-                  e-Services for Business
-        </a>
-              , refer to the{" "}
-        <a href="https://edd.ca.gov/Payroll_Taxes/FAQ_-_e-Services_for_Business.htm">
-                  FAQ - e-Services for Business
-        </a>
-              . You may call the Taxpayer Assistance Center at 888-745-3886 for
-              further assistance.
+              To get assistance with enrolling or using <EservicesLink />
+              , refer to the <EservicesFAQLink />. You may call the Taxpayer
+              Assistance Center at {taxPayerContact.phone} for further
+              assistance.
       </p>
-    </div>
+    </Article>
   );
 }

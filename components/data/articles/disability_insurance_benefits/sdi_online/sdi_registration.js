@@ -1,6 +1,6 @@
 import Article from "../../../../common/article";
 import eddContact from "../../../contact/edd_contact";
-import BPOLink from '../../common_links/benefits_program_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import TipsForClaimants from '../../common_links/sdi_information/sdi_tips_for_claimants'
 import TipsForEmployers from '../../common_links/sdi_information/sdi_tips_for_employers'
 import TipsForPhysicians from '../../common_links/sdi_information/sdi_tips_for_physicians'

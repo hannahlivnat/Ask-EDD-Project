@@ -1,6 +1,6 @@
 import Article from '../../../../common/article'
-import BPOLink from '../../common_links/benefits_program_link'
-import SDILink from '../../common_links/sdi_online_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
 import PFLEligibility from '../../common_links/pregancy/pfl_eligibility'
 import PregnancyFAQ from '../../common_links/pregancy/pregnancy_faq'
 export default function sdi_how_many_weeks_of_benefits_while_pregnant() {

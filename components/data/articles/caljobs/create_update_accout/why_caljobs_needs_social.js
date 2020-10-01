@@ -1,4 +1,4 @@
-import JobsLinks from "../../common_links/caljobs_link";
+import JobsLinks from "../../common_links/jobs_resources/caljobs_link";
 import Article from "../../../../common/article";
 
 export default function why_caljobs_needs_social(){

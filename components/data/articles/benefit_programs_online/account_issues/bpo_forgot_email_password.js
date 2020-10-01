@@ -1,4 +1,4 @@
-import BPOLink from "../../common_links/benefits_program_link.js";
+import BPOLink from "../../common_links/bp_online/benefits_program_link.js";
 import Article from "../../../../common/article"
 
 export default function bpo_forgot_email_password() {

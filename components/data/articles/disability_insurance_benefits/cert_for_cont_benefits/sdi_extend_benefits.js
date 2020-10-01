@@ -1,6 +1,6 @@
 import Article from '../../../../common/article'
-import SocialSecLink from '../../common_links/social_security_link'
-import SDILink from '../../common_links/sdi_online_link'
+import SocialSecLink from '../../common_links/sdi_information/social_security_link'
+import SDILink from '../../common_links/sdi_information/sdi_online_link'
 import eddContact from '../../../contact/edd_contact'
 export default function ExtendBenefits() {
   return (

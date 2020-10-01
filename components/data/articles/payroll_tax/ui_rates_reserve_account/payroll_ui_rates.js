@@ -1,14 +1,12 @@
+import Article from "../../../../common/article";
+import UiRateSearch from '../../common_links/tax/ui_rate_search'
+
 export default function ui_rates() {
   return (
-    <div className="article-div">
-      <h4>UI Rates</h4>
+    <Article h4="UI Rates">
       <p>
-              To obtain your UI rate, visit the{" "}
-        <a href="https://eddservices.edd.ca.gov/tap/open/rateinquiry">
-                  UI Rate Search{" "}
-        </a>
-              page.
+        To obtain your UI rate, visit the <UiRateSearch /> page.
       </p>
-    </div>
+    </Article>
   );
 }

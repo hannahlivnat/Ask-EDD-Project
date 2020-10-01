@@ -1,4 +1,4 @@
-import CalJobsLink from '../../common_links/caljobs_link'
+import CalJobsLink from '../../common_links/jobs_resources/caljobs_link'
 import Article from "../../../../common/article";
 
 export default function caljobs_resume() {

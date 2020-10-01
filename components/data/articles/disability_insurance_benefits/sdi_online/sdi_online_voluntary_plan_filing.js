@@ -1,7 +1,7 @@
 import Article from '../../../../common/article'
-import BPOLink from '../../common_links/benefits_program_link'
+import BPOLink from '../../common_links/bp_online/benefits_program_link'
 import BPORegistratin from '../../common_links/video_links/bpo_registration_link'
-import SDIVoluntaryPlan from '../../common_links/sdi_voluntary_plans'
+import SDIVoluntaryPlan from '../../common_links/sdi_information/sdi_voluntary_plans'
 import eddContact from '../../../contact/edd_contact'
 export default function sdi_online_voluntary_plan_filing(){
   return (
