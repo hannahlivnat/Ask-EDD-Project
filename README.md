@@ -7,7 +7,7 @@ This is a front-end application serving as a mock-up of an alternative Californi
 
 If you'd like to contribute to this project, please see the [contributing guidelines](https://github.com/hannahlivnat/Ask-EDD-Project/blob/production/contributing.md).
 
-While working on issues, the following react component architecture may be helpful in understanding the flow of components: 
+While working on issues, the following react component architecture may be helpful in understanding the flow of components. This is an initial plan which is subject to change as the project develops.: 
 
 ![Image of Site Architecture](./public/react-component-architecture.png)
 
