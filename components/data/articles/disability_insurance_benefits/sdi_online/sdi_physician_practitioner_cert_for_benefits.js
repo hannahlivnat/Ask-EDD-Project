@@ -1,9 +1,9 @@
+import Article from "../../../../common/article";
 import BPOLink from '../../common_links/benefits_program_link'
-
+import SDIPhysicianTutorial from '../../common_links/sdi_tutorial_for_physician'
 export default function sdi_physician_practitioner_cert_for_benefits(){
   return (
-    <div className="article-div">
-      <h4>Physician/Practitioner Certifying for Benefits</h4>
+    <Article h4="Physician/Practitioner Certifying for Benefits">
       <p>
               To file a medical certification online, a physician/practitioner
               licensed through the California Department of Consumer Affairs
@@ -20,8 +20,7 @@ export default function sdi_physician_practitioner_cert_for_benefits(){
         </li>
         <li>
                   Select <b>SDI Online</b> which will direct you to your{" "}
-          <b>Home</b>
-                  page.
+          <b>Home</b> page.
         </li>
         <li>
                   Search for your patient’s information using one of the
@@ -44,12 +43,8 @@ export default function sdi_physician_practitioner_cert_for_benefits(){
               After locating your patient’s claim, you may complete your
               certification by answering the applicable questions, and providing
               the information requested. For more information, visit our{" "}
-        <a href="https://edd.ca.gov/Disability/pdf/sdi-online-tutorial-for-physician-practitioners.pdf">
-                  SDI Online Tutorial for Physician/Practitioners and
-                  Representatives
-        </a>
-              .
+        <SDIPhysicianTutorial />.
       </p>
-    </div>
+    </Article>
   );
 } 

@@ -1,8 +1,13 @@
+import Article from "../../../../common/article";
+import eddContact from "../../../contact/edd_contact";
 import BPOLink from '../../common_links/benefits_program_link'
+import TipsForClaimants from '../../common_links/sdi_information/sdi_tips_for_claimants'
+import TipsForEmployers from '../../common_links/sdi_information/sdi_tips_for_employers'
+import TipsForPhysicians from '../../common_links/sdi_information/sdi_tips_for_physicians'
+import SDIOnlineTutorial from '../../common_links/sdi_information/sdi_online_tutorial'
 export default function registration() {
   return (
-    <div className="article-div">
-      <h4>Register for SDI Online</h4>
+    <Article h4="Register for SDI Online">
       <p>
               To register for SDI Online, you must have first completed a
               one-time registration in Benefit Programs Online (BPO).
@@ -18,9 +23,14 @@ export default function registration() {
         <li>Select SDI Online.</li>
         <li>
                   Select your registration type on the SDI Online Registration
-                  Instruction page (Claimants, Physician/Practitioners,
-                  Physician/Practitioner Representative, Employers, or Voluntary
-                  Plans.)
+                  Instruction page
+          <ul>
+            <li>Claimants</li>
+            <li>Physician/Practitioners</li>
+            <li>Physician/Practitioner Representative</li>
+            <li>Employers</li>
+            <li>Voluntary Plans</li>
+          </ul>
         </li>
         <li>
                   Provide all required information, including California Driver
@@ -35,39 +45,28 @@ export default function registration() {
       <p>For assistance with registration, refer to:</p>
       <ul>
         <li>
-          <a href="https://www.edd.ca.gov/pdf_pub_ctr/de8515.pdf">
-                      SDI Online Tips for Claimants.
-          </a>
+          <TipsForClaimants />
         </li>
         <li>
-          <a href="https://www.edd.ca.gov/pdf_pub_ctr/de8518.pdf">
-                      SDI Online Tips for Employers{" "}
-          </a>
+          <TipsForEmployers />
         </li>
         <li>
-          <a href="https://www.edd.ca.gov/pdf_pub_ctr/de8516.pdf">
-                      SDI Online Tips for Physicians and Practitioners.
-          </a>
+          <TipsForPhysicians />
         </li>
         <li>
-          <a href="https://www.edd.ca.gov/Disability/SDI_Online_Tutorials.htm">
-                      SDI Online Tutorial.
-          </a>
+          <SDIOnlineTutorial />
         </li>
       </ul>
       <p>
               You may also contact the EDD to speak to a representative by
-              calling 1-800-480-3287 or TTY 1-800-563-2441 Monday-Friday, 8 a.m.
-              to 5 p.m. (Pacific time), except{" "}
-        <a href="https://www.edd.ca.gov/Payroll_Taxes/State_Holidays.htm">
-                  state holidays
-        </a>
-              . Employers and physicians/practitioners may call 1-855-342-3645.
+              calling {eddContact.sdi_representative} or TTY {eddContact.tty_number} Monday-Friday, 8 a.m.
+              to 5 p.m. (Pacific time), except state holidays. Employers and physicians/practitioners 
+              may call {eddContact.physician_and_practitioner_representative}.
       </p>
       <p>
               When calling via the California Relay Service (711), provide the
-              Disability Insurance number (1-800-480-3287) to the operator.
+              Disability Insurance number ({eddContact.sdi_representative}) to the operator.
       </p>
-    </div>
+    </Article>
   );
 }

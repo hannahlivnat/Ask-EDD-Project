@@ -1,17 +1,14 @@
-export default function unemployment_rate_in_city() {
+import Article from "../../../../common/article";
+import DataLibraryLink from "../../common_links/wage_data/data_library";
+export default function unemployment_rate_for_city() {
   return (
-    <div className="article-div">
-      <h4>Where Can I Find the Unemployment Rate for My City</h4>
+    <Article h4="Where Can I Find the Unemployment Rate for My City?">
       <p>
-              The Labor Market Information Division prepares monthly estimates
-              of labor force and unemployment rates for selected cities and
-              towns in California. These data are available in the{" "}
-        <i>Labor Market Info</i>{" "}
-        <a href="http://www.labormarketinfo.edd.ca.gov/cgi/dataanalysis/AreaSelection.asp?tableName=Labforce">
-                  Data Library
-        </a>
-              .
+        The Labor Market Information Division prepares monthly estimates
+        of labor force and unemployment rates for selected cities and
+        towns in California. These data are available in the Labor
+        Market Info <DataLibraryLink />.
       </p>
-    </div>
+    </Article>
   );
 }

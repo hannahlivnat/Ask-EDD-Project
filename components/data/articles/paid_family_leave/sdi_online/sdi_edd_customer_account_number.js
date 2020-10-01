@@ -1,7 +1,7 @@
+import Article from '../../../../common/article'
 export default function sdi_edd_customer_account_number() {
   return (
-    <div className="article-div">
-      <h4>EDD Customer Account Number (EDDCAN</h4>
+    <Article h4="EDD Customer Account Number (EDDCAN)">
       <p>
               Your Employment Development Department Customer Account Number
               (EDDCAN) is a unique identification number that is assigned when
@@ -11,6 +11,6 @@ export default function sdi_edd_customer_account_number() {
               number will help limit the use of Social Security numbers as the
               primary source of identification for claimants.
       </p>
-    </div>
+    </Article>
   );
 }

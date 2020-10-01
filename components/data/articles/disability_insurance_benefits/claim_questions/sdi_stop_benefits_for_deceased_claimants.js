@@ -1,12 +1,16 @@
+import Article from "../../../../common/article";
+import contactEdd from "../../../contact/edd_contact";
+
 export default function sdi_stop_benefits_for_deceased_claimants(){
   return (
-    <div className="article-div">
-      <h4>Stop Benefits for Deceased Claimants</h4>
+    <Article h4="Stop Benefits for Deceased Claimants">
       <p>
-              For Disability Insurance benefit payments, contact the Disability
-              Insurance Office at 1-800-480-3287 or TTY 1-800-563-2441. When
-              calling via the California Relay Service (711), provide the
-              Disability Insurance number (1-800-480-3287) to the operator.
+              For Disability Insurance Benefits, you may contact {' '}
+        {contactEdd.sdi_representative} (English),{' '}
+        {contactEdd.sdi_spanish} (en español), or TTY{" "}
+        {contactEdd.tty_number}. When calling via the California Relay
+              Service (711), provide the Disability Insurance number (
+        {contactEdd.sdi_representative}) to the operator.
       </p>
       <p>
               If you are unable to reach an EDD representative at the phone
@@ -16,6 +20,6 @@ export default function sdi_stop_benefits_for_deceased_claimants(){
               beneficiary’s death. Be sure to provide your name, address, and
               phone number so we can contact you with additional instructions.
       </p>
-    </div>
+    </Article>
   );
 }

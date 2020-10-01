@@ -1,8 +1,9 @@
+import Article from "../../../../common/article";
+
 import JobsLinks from '../../common_links/caljobs_link'
 export default function how_to_change_name() {
   return (
-    <div className="article-div">
-      <h4>How Can I Change My Name?</h4>
+    <Article h4="How Can I Change My Name?">
       <ol>
         <li>
                   Log in to <JobsLinks />
@@ -17,10 +18,10 @@ export default function how_to_change_name() {
         </li>
         <li>Locate the &#34;Name&#34; section and make changes.</li>
         <li>
-                  Select the &#34;Save&#34; button at the bottom of the screen when
-                  finished.
+                  Select the &#34;Save&#34; button at the bottom of the screen
+                  when finished.
         </li>
       </ol>
-    </div>
+    </Article>
   );
 }

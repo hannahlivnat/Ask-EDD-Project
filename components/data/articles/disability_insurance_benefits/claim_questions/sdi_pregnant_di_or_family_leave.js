@@ -1,14 +1,15 @@
+import Article from '../../../../common/article'
 import BPOLink from '../../common_links/benefits_program_link'
 import OnlineFormsPublications from '../../common_links/online_forms_publications'
 import SDILink from '../../common_links/sdi_online_link'
+import PregancyFAQ from '../../common_links/pregancy/pregnancy_faq'
 
 export default function sdi_pregnant_di_or_family_leave() {
   return (
-    <div className="article-div">
-      <h4>
-              I’m Pregnant, Do I File for Disability Insurance or Paid Family
-              Leave?
-      </h4>
+    <Article
+      h4="I’m Pregnant, Do I File for Disability Insurance or Paid Family
+              Leave?"
+    >
       <p>
               If your physician/practitioner certifies that you are unable to
               work due to your pregnancy, you have the option to file a claim
@@ -17,7 +18,7 @@ export default function sdi_pregnant_di_or_family_leave() {
       </p>
       <p>
               You may file a disability claim using SDI Online. To use SDI
-              Online, you must first complete a one-time registration through
+              Online, you must first complete a one-time registration through{' '}
         <BPOLink />.
       </p>
       <p>
@@ -25,15 +26,7 @@ export default function sdi_pregnant_di_or_family_leave() {
               visiting <OnlineFormsPublications />.
       </p>
       <p>
-              For more information, visit our{" "}
-        <a href="https://www.edd.ca.gov/disability/FAQs.htm">
-                  Frequently Asked Questions (FAQs)
-        </a>
-              and review the{" "}
-        <a href="https://www.edd.ca.gov/disability/FAQ_DI_Pregnancy.htm">
-                  Pregnancy FAQ
-        </a>
-              .
+              For more information, visit our <PregancyFAQ />.
       </p>
       <p>
               Once you have recovered from your pregnancy-related disability,
@@ -46,6 +39,6 @@ export default function sdi_pregnant_di_or_family_leave() {
               2501FP) will automatically be mailed to you or you may file your
               PFL claim using <SDILink />.
       </p>
-    </div>
-  )
+    </Article>
+  );
 }

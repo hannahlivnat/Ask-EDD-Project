@@ -1,14 +1,13 @@
+import Article from '../../../../common/article';
+import BPOLink from '../../common_links/benefits_program_link'
+
 export default function bpo_password_reset() {
   return (
-    <div className="article-div">
+    <Article h4="Reset My Password">
       <p>To reset your Benefit Programs Online password:</p>
       <ol>
         <li>
-          Log in to{" "}
-          <a href="https://edd.ca.gov/Benefit_Programs_Online.htm">
-          Benefit Programs Online
-          </a>
-          .
+          Log in to <BPOLink />.
         </li>
         <li>
           Select the <b>My Profile</b> link located at the top of the
@@ -28,6 +27,6 @@ export default function bpo_password_reset() {
         effect immediately. You can update your information 24 hours a day,
         7 days a week.
       </p>
-    </div>
+    </Article>
   )
 }

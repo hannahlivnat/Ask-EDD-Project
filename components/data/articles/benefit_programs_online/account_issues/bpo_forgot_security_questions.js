@@ -1,7 +1,8 @@
+import Article from "../../../../common/article";
+
 export default function bpo_forgot_security_question () {
   return (
-    <div className="article-div">
-      <h4>Forgot Answer(s) to Security Questions</h4>
+    <Article h4="Forgot Answer(s) to Security Questions">
       <p>
         If you have forgotten your Benefit Programs Online security
         questions or answers, follow these steps:
@@ -15,10 +16,10 @@ export default function bpo_forgot_security_question () {
         </li>
       </ol>
       <p>
-        Note: If you forgot your password and are unable to answer two of
-        your security questions, you should Contact UI by phone to speak to
-        an Unemployment Insurance (UI) representative.
+        <b>Note</b>: If you forgot your password and are unable to answer two of
+        your security questions, you should Contact UI by phone to speak
+        to an Unemployment Insurance (UI) representative.
       </p>
-    </div>
-  )
+    </Article>
+  );
 }

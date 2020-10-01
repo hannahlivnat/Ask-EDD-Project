@@ -1,7 +1,8 @@
+import Article from "../../../../common/article";
+
 export default function missing_wages_from_claim() {
   return (
-    <div className="article-div">
-      <h4>Missing Wages from Claim</h4>
+    <Article h4="Missing Wages From Claim">
       <p>
               It is important to check the <i>Notice of Computation</i> (DE
               429D), carefully to make sure that all employers you worked for
@@ -20,6 +21,6 @@ export default function missing_wages_from_claim() {
               indicated in the paragraph above to report the correct
               information.
       </p>
-    </div>
+    </Article>
   );
 }

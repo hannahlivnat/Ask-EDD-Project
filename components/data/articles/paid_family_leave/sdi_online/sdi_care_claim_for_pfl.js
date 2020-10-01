@@ -1,9 +1,12 @@
 import BPOLink from '../../common_links/benefits_program_link'
 import OnlineFP from '../../common_links/benefits_program_link'
+import Article from '../../../../common/article'
+import FilePFLClaim from '../../common_links/pfl_links/file_pfl_claim'
+import askEdd from '../../../contact/edd_contact'
+
 export default function sdi_care_claim_for_pfl() {
   return (
-    <div className="article-div">
-      <h4>File a Care Claim for Paid Family Leave</h4>
+    <Article h4="File a Care Claim for Paid Family Leave">
       <p>
               To file a Paid Family Leave (PFL) care claim, using SDI Online,
               you must first complete a one-time registration in Benefit
@@ -48,11 +51,7 @@ export default function sdi_care_claim_for_pfl() {
               saved in the following formats: .pdf, .jpg, .tif.
       </p>
       <p>
-              For detailed instructions visit How to File a{" "}
-        <a href="https://www.edd.ca.gov/Disability/How_to_File_a_PFL_Claim_in_SDI_Online.htm">
-          {" "}
-                  Paid Family Leave (PFL) Claim in SDI Online.
-        </a>
+              For detailed instructions visit <FilePFLClaim />
       </p>
       <p>
               You may still file a paper{" "}
@@ -62,10 +61,10 @@ export default function sdi_care_claim_for_pfl() {
               cost to you by visiting <OnlineFP />.
       </p>
       <p>
-              For further questions, call 1-877-238-4373 or TTY: 1-800-445-1312.
+              For further questions, call {askEdd.paid_family_representative} or TTY: {askEdd.tty_paid_family_representative}.
               When calling via the California Relay Service (711), provide the
-              Paid Family Leave number (1-877-238-4373) to the operator.
+              Paid Family Leave number ({askEdd.paid_family_representative}) to the operator.
       </p>
-    </div>
+    </Article>
   );
 } 

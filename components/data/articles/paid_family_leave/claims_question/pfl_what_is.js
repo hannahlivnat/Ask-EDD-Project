@@ -1,7 +1,9 @@
+import Article from '../../../../common/article'
+import PFLFacts from '../../common_links/pfl_links/pfl_fact_sheet'
+import PFLFaq from '../../common_links/pfl_links/pfl_faq'
 export default function pfl_what_is() {
   return (
-    <div className="article-div">
-      <h4>What is Paid Family Leave?</h4>
+    <Article h4="What is Paid Family Leave?">
       <p>
               Paid Family Leave (PFL) provides benefits for individuals who lose
               wages when they need time off from work to care for a seriously
@@ -11,16 +13,9 @@ export default function pfl_what_is() {
               placement.
       </p>
       <p>
-              To learn more about PFL, visit the{" "}
-        <a href="https://edd.ca.gov/pdf_pub_ctr/de8714cf.pdf">
-                  Paid Family Leave Fact Sheet
-        </a>{" "}
-              or the{" "}
-        <a href="https://www.edd.ca.gov/Disability/FAQ_PFL_Benefits.htm">
-                  PFL Frequently Asked Questions
-        </a>
-              .
+              To learn more about PFL, visit the <PFLFacts />{" "}
+              or the <PFLFaq />.
       </p>
-    </div>
+    </Article>
   );
 }

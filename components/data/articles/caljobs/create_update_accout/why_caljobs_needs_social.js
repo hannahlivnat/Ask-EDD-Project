@@ -1,8 +1,9 @@
 import JobsLinks from "../../common_links/caljobs_link";
+import Article from "../../../../common/article";
+
 export default function why_caljobs_needs_social(){
   return (
-    <div className="article-div">
-      <h4>Why do You Need My Social Security Number in CalJOBS?</h4>
+    <Article h4="Why Does CalJOBS Need My Social Security Number?">
       <p>
         <JobsLinks /> uses the Social Security number to ensure that no
               individual&#39;s record is confused with another and to prevent
@@ -15,6 +16,6 @@ export default function why_caljobs_needs_social(){
               precautionary measure to ensure that all information received is
               secure and confidential.
       </p>
-    </div>
+    </Article>
   );
 }

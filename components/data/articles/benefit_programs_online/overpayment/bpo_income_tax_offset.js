@@ -1,27 +1,35 @@
+import Article from '../../../../common/article'
+
+import TaxRefundLink from '../../common_links/tax/tax_refund_send_to_edd_link'
+import TreasuryOffset from '../../common_links/tax/treasury_offset_link'
+import IRSForm from '../../common_links/tax/irs_form_8379'
+import IRSVisit from '../../common_links/tax/visit_irs_link'
+
+import irsContact from '../../../contact/irs_contact'
+
 export default function bpo_income_tax_offset () {
   return (
-    <div className="article-div">
-      <h4>Federal/State Income Tax Offset</h4>
+    <Article h4="Federal/State Income Tax Offset">
       <p>
-      We can collect benefit overpayment debts from your
-      federal and state tax refund. Allow four weeks for your 
-      offset to be applied.
+              We can collect benefit overpayment debts from your federal and
+              state tax refund. Allow four weeks for your offset to be applied.
       </p>
       <p>
-      For more information, visit <a>Your Tax Refund or Lottery Money 
-      Was Sent to the EDD </a> or <a>Treasury Offset Program FAQs</a>.
+              For more information, visit <TaxRefundLink /> or{" "}
+        <TreasuryOffset />.
       </p>
       <p>
-      If you are getting your portion of refund for a joint tax return.
-      You must complete the <i>Injured Spouse Allocation</i>(IRS Form 8379)
-      and send it to the IRS for review. You may <a>download IRS Form 8379</a>,
-      call the IRS at 1-800-829-3676, or visit a <a>local IRS office</a>. Contact
-      the IRS if you have questions about the form or need help completing it. 
+              If you are getting your portion of refund for a joint tax return.
+              You must complete the <i>Injured Spouse Allocation</i>(IRS Form
+              8379) and send it to the IRS for review. You may download{" "}
+        <IRSForm />, call the IRS at {irsContact.phone}, or visit a{" "}
+        <IRSVisit />. Contact the IRS if you have questions about the form
+              or need help completing it.
       </p>
       <p>
-      Federal/State offset can be avoided if you pay your debt in full prior to your  
-      taxes being offset. 
+              Federal/State offset can be avoided if you pay your debt in full
+              prior to your taxes being offset.
       </p>
-    </div>
-  )
+    </Article>
+  );
 }

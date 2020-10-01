@@ -1,25 +1,18 @@
+import Article from "../../../../common/article";
 import AmericanJobCenterLink from "../../common_links/american_jobs_link";
+import EligibleTraining from '../../common_links/jobs_resources/eligible_training'
+import TrainingProviders from '../../common_links/jobs_resources/training_providers'
 
 export default function what_is_etpl() {
   return (
-    <div className="article-div">
-      <h4>What is the Eligible Training Provider List (ETPL)?</h4>
+    <Article h4='What is the Eligible Training Provider List (ETPL)?'>
       <p>
-              The{" "}
-        <a href="https://www.edd.ca.gov/Jobs_and_Training/Eligible_Training_Provider_List.htm">
-                  Eligible Training Provider List
-        </a>
-              (ETPL) is a list of qualified training providers eligible to
-              receive Workforce Innovation and Opportunity Act funds for their
-              services. The ETPL includes training locations, program costs,
-              training occupations, and apprenticeship programs. You can{" "}
-        <a href="http://etpl.edd.ca.gov/wiaetpltp.asp">
-                  search training providers
-        </a>{" "}
-              or visit an{" "}
-        <AmericanJobCenterLink />
-              to help you identify potential sources for training.
+        The <EligibleTraining /> (ETPL) is a list of qualified training providers eligible to
+        receive Workforce Innovation and Opportunity Act funds for their
+        services. The ETPL includes training locations, program costs,
+        training occupations, and apprenticeship programs. You can <TrainingProviders />
+        or visit an <AmericanJobCenterLink /> to help you identify potential sources for training.
       </p>
-    </div>
+    </Article>
   );
 }

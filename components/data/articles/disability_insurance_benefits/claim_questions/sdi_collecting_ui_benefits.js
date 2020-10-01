@@ -1,14 +1,14 @@
+import Article from "../../../../common/article";
 import SDILink from '../../common_links/sdi_online_link'
 import BPOLink from '../../common_links/benefits_program_link'
 import OnlineFormPublications from '../../common_links/online_forms_publications'
-
+import DIEligibility from '../../common_links/di_eligibility'
 export default function sdi_collecting_ui_benefits() {
   return (
-    <div className="article-div">
-      <h4>
-              I Was Collecting UI Benefits But Now Have a Disability, Can I
-              Still File for DI Benefits?
-      </h4>
+    <Article
+      h4="I Was Collecting UI Benefits But Now Have a Disability, Can I
+              Still File for DI Benefits?"
+    >
       <p>
               If your physician/practitioner certifies that your disability
               prevents you from working, you may file a claim for Disability
@@ -28,12 +28,8 @@ export default function sdi_collecting_ui_benefits() {
         <OnlineFormPublications />.
       </p>
       <p>
-              For information about DI eligibility, visit{" "}
-        <a href="https://www.edd.ca.gov/Disability/Am_I_Eligible_for_DI_Benefits.htm">
-                  Am I Eligible for DI
-        </a>
-              ?
+              For information about DI eligibility, visit <DIEligibility />?
       </p>
-    </div>
+    </Article>
   );
 }

@@ -1,15 +1,18 @@
+import Article from "../../../../common/article";
+import BPOLink from "../../common_links/benefits_program_link";
+import eddContact from "../../../contact/edd_contact";
+
 export default function bpo_pay_overpayment() {
   return (
-    <div className="article-div">
-      <h4>How Can I Pay my Benefits Overpayment?</h4>
+    <Article h4="How Can I Pay My Benefits Overpayment?">
       <p>
       You may make your payments online, by phone, or by mail.
-      Review the <a>Benefits Overpayments</a>page for specific details.
+      Review the <BPOLink /> page for specific details.
       </p>
       <p>
       To request an installment agreement, call the EDD Benefit Overpayment
-      Collection Section at 1-800-676-5737.
+      Collection Section at {eddContact.benefit_overpayment_collection}.
       </p>
-    </div>
+    </Article>
   )
 }

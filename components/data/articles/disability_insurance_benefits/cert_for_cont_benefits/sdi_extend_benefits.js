@@ -1,12 +1,15 @@
+import Article from '../../../../common/article'
+import SocialSecLink from '../../common_links/social_security_link'
 import SDILink from '../../common_links/sdi_online_link'
+import eddContact from '../../../contact/edd_contact'
 export default function ExtendBenefits() {
   return (
-    <div className="article-div">
+    <Article h4="Extend SDI Benefits">
       <p>
               You are eligible to receive benefits up until the date your
               physician/practitioner provided to the Employment Development
               Department (EDD) as your release or possible return to work date.
-              With your final payment, you will receive a
+              With your final payment, you will receive a{' '}
         <i>Physician/Practitioner’s Supplementary Certificate</i> (DE
               2525XX) by mail.
       </p>
@@ -30,15 +33,14 @@ export default function ExtendBenefits() {
               EDD receives the DE 2525XX.
       </p>
       <p>
-              If you misplaced the DE 2525XX, you may request the form via your
-        <SDILink /> account or by calling 1-800-480-3287.
+              If you misplaced the DE 2525XX, you may request the form via your{' '}
+        <SDILink /> account or by calling {eddContact.sdi_representative}.
       </p>
       <p>
               If you have exhausted your available SDI benefits but your
               disability is continuing, you may want to consider applying for
-              disability benefits through{" "}
-        <a href="https://www.ssa.gov/disabilityssi/">Social Security</a>.
+              disability benefits through <SocialSecLink />.
       </p>
-    </div>
+    </Article>
   );
 }

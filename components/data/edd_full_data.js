@@ -151,7 +151,7 @@ const eddData = {
       "BPO - General Information": <BPOGeneralInfo />,
     },
     "Create / Update BPO Profile": {
-      Registration: <BPORegistration />,
+      "Registration": <BPORegistration />,
       "Update My Profile": <BPOUpdateProfile />,
       "Update Information": <BPOUpdateInformation />,
     },
@@ -170,7 +170,7 @@ const eddData = {
     Payment: {
       "Where is My Payment": <BPOWhereIsPayment />,
       "EDD Debit Card: General Information": <BPOEDDDebitCardInfo />,
-      "EDD Debit Card Fees?": <BPOEDDDebitCardFees />,
+      "EDD Debit Card Fees": <BPOEDDDebitCardFees />,
       "Benefit Checks Without Debit Card": <BPONoDebitCard />,
       "Failure to Notify EDD of Changes": <BPOFailureToNotify />,
       "Stop Payments": <BPOStopPayments />,
@@ -281,7 +281,7 @@ const eddData = {
       "I Was Collecting UI Benefits But Now Have a Disability, Can I Still File for DI Benefits?": (
         <SDIUIStillFile />
       ),
-      "I am Pregant, Do I File for Disability Insurance or Paid Family Leave?": (
+      "I am Pregnant, Do I File for Disability Insurance or Paid Family Leave?": (
         <SDIPregnantFileWhich />
       ),
       "Check Status of Disability Insurance Claim Online": (
@@ -290,11 +290,11 @@ const eddData = {
       "Charge for Filling Out Physician/Practitioner Certificate?": (
         <SDIDoctorCharge />
       ),
-      "Missing Wages from Claim": <SDIMissingWages />,
+      "Missing Wages From Claim": <SDIMissingWages />,
       "Stop Benefits for Deceased Claimants": (
         <SDIStopBenefitsForDeceased />
       ),
-      "How Do I Report a Return to Work Date?": <SDIReportReturntoWork />,
+      "Report a Return to Work Date": <SDIReportReturntoWork />,
     },
     "Certify for Continued Benefits": {
       "Automated Payment Status": <SDIAutomatedPayment />,
@@ -351,7 +351,7 @@ const eddData = {
   "CalJOBS": {
     "Create / Update Account": {
       "How to Register in CalJOBS": <CalJobsRegister />,
-      "Why Do You Need My Social Security Number?": (
+      "Why Does CalJOBS Need My Social Security Number?": (
         <CalJobsSocialSecurity />
       ),
       "How Can I Make Changes to My Personal Information": (
@@ -381,9 +381,6 @@ const eddData = {
       "Where Can I Find the Unemployment Rate for My City?": (
         <LaborMarketUnemployRate />
       ),
-      "Where Can I Find a List of the Employment Rates for My City?": (
-        <LaborMarketUnemployRate />
-      ),
       "Where Can I Find a List of Top Employers in My Area?": (
         <LaborMarketTopEmployers />
       ),
@@ -394,7 +391,7 @@ const eddData = {
         <LaborMarketWageDisagreement />
       ),
       "When Does My Employe Have to Pay Overtime?": <LaborMarketOvertime />,
-      "My Employer Laid me Off, but Has Not Given me a Final Paycheck?": (
+      "My Employer Laid me Off, But Has Not Given Me a Final Paycheck": (
         <LaborMarketLaidOffFinalPay />
       ),
       "What Benefits are Employees Entitled to?": (

@@ -1,8 +1,11 @@
+import Article from '../../../../common/article'
 import BPOLink from '../../common_links/benefits_program_link'
+import BPORegistration from '../../common_links/video_links/bpo_registration_link'
+import VoluntaryPlan from '../../common_links/sdi_voluntary_plans'
+import contactEdd from '../../../contact/edd_contact'
 export default function sdi_online_voluntary_plan_filing() {
   return (
-    <div className="article-div">
-      <h4>Online Voluntary Plan Filing</h4>
+    <Article h4="Online Voluntary Plan Filing">
       <p>
               Employers: To file your Voluntary Plan (VP) employer reports using
               SDI Online, you must first complete a one-time registration in
@@ -18,25 +21,21 @@ export default function sdi_online_voluntary_plan_filing() {
       </ol>
       <p>
               For additional BPO registration information, watch the{" "}
-        <a href="https://www.youtube.com/watch?v=l0O37hyLU5Y&feature=youtu.be">
-                  BPO registration video
-        </a>
-              .
+        <BPORegistration />.
       </p>
       <p>You can register 24 hours a day, 7 days a week.</p>
       <p>
-              Once you have registered in BPO, call the VP Group at 916-653-6839
+              Once you have registered in BPO, call the VP Group at{" "}
+        {contactEdd.sdi_voluntary_plan_group}
               to complete the set up process for SDI Online. For more
-              information about VP, visit the{" "}
-        <a href="https://www.edd.ca.gov/Disability/Employer_Voluntary_Plans.htm">
-                  Voluntary Plans
-        </a>
-              page or call the VP Group at 916-653-6839.
+              information about VP, visit the <VoluntaryPlan />{' '}
+              page or call the VP Group at {contactEdd.sdi_voluntary_plan_group}
+              .
       </p>
       <p>
         <b>Note</b>: If you are a VP claimant, contact your employer to
               file your Paid Family Leave claim.
       </p>
-    </div>
+    </Article>
   );
 }

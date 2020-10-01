@@ -1,10 +1,12 @@
+import Article from "../../../../common/article";
+import IRSContact from '../../../contact/irs_contact'
+import eddContact from '../../../contact/edd_contact'
 export default function sdi_disability_last_year_are_benefits_taxable(){
   return (
-    <div className="article-div">
-      <h4>
-              I Was on Disability Last Year, Are My Disability Insurance
-              Benefits Taxable?
-      </h4>
+    <Article
+      h4="I Was on Disability Last Year, Are My Disability Insurance
+              Benefits Taxable?"
+    >
       <p>
               Your Disability Insurance (DI) benefits are not reported to the
               Internal Revenue Service (IRS) for tax purposes, with one
@@ -23,15 +25,15 @@ export default function sdi_disability_last_year_are_benefits_taxable(){
               If you received UI benefits prior to filing a claim for DI
               benefits and did not receive a 1099G, you need to contact the
               Employment Development Department (EDD) 1099G Service Line at
-              1-800-795-0193. If you have further questions or concerns you may
-              contact the IRS at 1-800-829-1040 or TDD: 1-800-829-4059. When
+        {eddContact.form_1099g_service_line}. If you have further questions or concerns you may
+              contact the IRS at {IRSContact.phone} or TDD: {IRSContact.tdd}. When
               calling via the California Relay Service (711), provide the IRS
-              number (1-800-829-1040) to the operator.
+              number ({IRSContact.phone}) to the operator.
       </p>
       <p>
               DI benefits are not reported to the California Franchise Tax
               Board.
       </p>
-    </div>
-  )
+    </Article>
+  );
 }

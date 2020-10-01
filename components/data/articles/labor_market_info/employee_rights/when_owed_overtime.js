@@ -1,14 +1,15 @@
+import Article from '../../../../common/article'
+import OvertimeLink from '../../common_links/employee_rights/overtime'
+import divisionOfLaborContact from '../../../contact/division_labor_standards_enforcement'
 export default function when_owed_overtime() {
   return (
-    <div className="article-div">
-      <h4>When does my employer have to pay overtime? </h4>
+    <Article h4="When Does My Employer Have to Pay Overtime">
       <p>
-              Labor laws in California are enforced by the California Department
-              of Industrial Relations, Division of Labor Standards Enforcement.
-              See their information page on{" "}
-        <a href="http://www.dir.ca.gov/dlse/FAQ_Overtime.htm">Overtime</a>, or you
-              can e-mail them at DLSEinfo@dir.ca.gov.
+        Labor laws in California are enforced by the California Department
+        of Industrial Relations, Division of Labor Standards Enforcement.
+        See their information page on <OvertimeLink />, or you
+        can e-mail them at {divisionOfLaborContact.email}.
       </p>
-    </div>
+    </Article>
   );
 }

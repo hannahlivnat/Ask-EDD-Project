@@ -1,17 +1,16 @@
+import Article from '../../../../common/article'
+import MinWageLink from '../../common_links/employee_rights/min_wage'
+import DepOfIndustrialContact from '../../../contact/division_labor_standards_enforcement'
 export default function min_wage_cali() {
   return (
-    <div className="article-div">
-      <h4>What is the minimum wage in California? </h4>
+    <Article h4="What is the minimum wage in California? ">
       <p>
               Labor laws in California are enforced by the California Department
               of Industrial Relations, Division of Labor Standards Enforcement.
-              Visit their Web page{" "}
-        <a href="http://www.dir.ca.gov/dlse/FAQ_MinimumWage.htm">
-                  Minimum Wage
-        </a>
-              for more information, or you can e-mail them at
-              DLSEinfo@dir.ca.gov.
+              Visit their Web page <MinWageLink /> for more information, or you
+              can e-mail them at
+        {DepOfIndustrialContact.email}.
       </p>
-    </div>
+    </Article>
   );
 }

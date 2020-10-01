@@ -1,22 +1,15 @@
+import Articles from '../../../../common/article'
+import DE88 from '../../common_links/tax/de88'
+import BulkTransLink from '../../common_links/tax/bulk_trans_link'
+import BulkTransFaq from '../../common_links/tax/bulk_trans_faq'
 export default function bulk_transmission() {
   return (
-    <div className="article-div">
-      <h4>Bulk Transmission (XML and Web Services)</h4>
+    <Articles h4="Bulk Transmission (XML and Web Services)">
       <p>
               Information and instructions to file tax and wage report forms
-              and/or make a <i>Payroll Tax Deposit</i> (
-        <a href="http://www.edd.ca.gov/pdf_pub_ctr/de88all.pdf">DE 88</a>)
-              can be found at{" "}
-        <a href="http://www.edd.ca.gov/Payroll_Taxes/Bulk_Transmissions.htm">
-          {" "}
-                  Bulk Transmissions (XML and Web Services)
-        </a>
-              and{" "}
-        <a href="http://www.edd.ca.gov/Payroll_Taxes/FAQ_-_Bulk_Transmissions.htm">
-                  FAQ - Bulk Transmissions (XML and Web Services)
-        </a>
-              .
+              and/or make a <i>Payroll Tax Deposit</i> (<DE88 />)
+              can be found at <BulkTransLink /> and <BulkTransFaq />.
       </p>
-    </div>
+    </Articles>
   );
 }
