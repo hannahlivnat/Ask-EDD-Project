@@ -1,0 +1,53 @@
+.navWrapper {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 9px 22px rgba(71, 71, 71, 0.1); // discuss moving color , boxshadow values in global css
+  padding: 0rem 2rem;
+  & .brandLogo {
+    height: 60%;
+    & > img {
+      height: 100%;
+    }
+  }
+  ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    li {
+      height: 100%;
+      padding: 0rem 1rem;
+      margin-right: 2rem;
+      display: flex;
+      align-items: center;
+      a {
+        pointer-events: none; // not a good way to disable link, but since link doesn't have a disable attr like button and to aviod onclick handler on each link, using this method
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        color: #333333;
+        white-space: nowrap;
+        &.active_link {
+          cursor: pointer;
+          pointer-events: unset;
+          font-weight: bold;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            top: 70%;
+            left: 0;
+            min-height: 2px;
+            background: #ffc107;
+          }
+        }
+      }
+    }
+  }
+}
