@@ -1,10 +1,8 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
 import styles from "../styles/navstyle.module.scss";
 import { navLinks, navRoutes } from "../constants/nav_links";
 const { HELP_CENTER } = navRoutes;
 export default function Nav() {
-  const pageUrl = useRouter(); // to use this to read route path from page url
   return (
     <nav className={styles.navWrapper}>
       <div className={styles.brandLogo}>
