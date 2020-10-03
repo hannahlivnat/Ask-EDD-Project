@@ -1,6 +1,6 @@
 import styles from "../styles/headerstyle.module.scss";
 import { CustomInput } from "./common/custom_input";
-// import IosSearchOutline from "react-ionicons/lib/IosSearchOutline";
+import { Icon } from 'semantic-ui-react'
 export default function Header() {
   const handleKeyDown = e => {
     // we can consider debounce here on basis of what we are trying to achieve
@@ -18,7 +18,7 @@ export default function Header() {
           className={styles.helpsearchInput}
           placeholder="Search Help Center"
           onKeyDown={handleKeyDown}
-          // icon={<IosSearchOutline />}
+          inputIcon={ <Icon disabled name='search'size='large'/>}
         />
       </div>
     </div>
