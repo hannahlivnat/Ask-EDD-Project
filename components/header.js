@@ -1,12 +1,12 @@
 import styles from "../styles/headerstyle.module.scss";
-import { CustomInput } from "../components/common/input";
-import IosSearchOutline from "react-ionicons/lib/IosSearchOutline";
+import { CustomInput } from "./common/custom_input";
+// import IosSearchOutline from "react-ionicons/lib/IosSearchOutline";
 export default function Header() {
-  const handleKeyDown = (e) => {
+  const handleKeyDown = e => {
     // we can consider debounce here on basis of what we are trying to achieve
     const { key } = e;
     if (key == "Enter") {
-      console.log("Search on enter works");
+      // console.log("Search on enter works");
     }
   };
   return (
@@ -18,7 +18,7 @@ export default function Header() {
           className={styles.helpsearchInput}
           placeholder="Search Help Center"
           onKeyDown={handleKeyDown}
-          icon={<IosSearchOutline />}
+          // icon={<IosSearchOutline />}
         />
       </div>
     </div>
