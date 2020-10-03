@@ -1,5 +1,4 @@
 .navWrapper {
-  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,6 +24,7 @@
       margin-right: 2rem;
       display: flex;
       align-items: center;
+      font-size: 18px;
       a {
         pointer-events: none; // not a good way to disable link, but since link doesn't have a disable attr like button and to aviod onclick handler on each link, using this method
         position: relative;
@@ -41,7 +41,7 @@
             content: "";
             position: absolute;
             width: 100%;
-            top: 70%;
+            top: 65%;
             left: 0;
             min-height: 2px;
             background: #ffc107;

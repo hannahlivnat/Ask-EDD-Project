@@ -1,5 +1,5 @@
 import Home from './index'
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import "semantic-ui-css/semantic.min.css"
 
 export default function MyApp() {

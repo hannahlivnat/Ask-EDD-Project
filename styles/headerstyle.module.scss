@@ -1,0 +1,32 @@
+.headerWrapper {
+  min-height: 278px;
+  background: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: var(--primary-color);
+    font-size: 40px;
+  }
+  p {
+    padding-top: 0.2rem;
+    font-size: 18px;
+    color: var(--black-color);
+  }
+  .helpsearchInput {
+    width: 600px;
+    margin-top: 1rem;
+    height: 4rem;
+    text-align: left;
+    padding: 2rem;
+    padding-left: 3rem;
+    border-radius: 100px;
+    box-shadow: var(--box-shadow);
+    color: var(--black-color);
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}
