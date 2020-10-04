@@ -7,13 +7,13 @@
   justify-content: center;
   align-items: center;
   h1 {
-    color:$primary-color;
+    color: $primary-color;
     font-size: 40px;
   }
   p {
     padding-top: 0.2rem;
     font-size: 18px;
-    color: $black-color ;
+    color: $black-color;
   }
   .helpsearchInput {
     width: 600px;
@@ -24,7 +24,7 @@
     padding-left: 3rem;
     border-radius: 100px;
     box-shadow: $box-shadow;
-    color: $black-color ;
+    color: $black-color;
     border: none;
     &:focus {
       outline: none;

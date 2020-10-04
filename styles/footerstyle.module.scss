@@ -1,0 +1,56 @@
+@import "./config//colors";
+.footerWrapper {
+  color: $black-color;
+  height: 250px;
+  padding: 3rem 2rem;
+  background: $secondary-color;
+  display: grid;
+  grid-template-columns: 30% auto auto auto auto;
+  grid-template-areas: "social-links-area resources-area state-programs-area leadership-area language-select-area";
+  :nth-child(1) {
+    grid-area: social-links-area;
+    display: flex;
+    align-items: flex-end;
+    & > img {
+      margin-right: 1rem;
+    }
+  }
+  :nth-child(2) {
+    grid-area: resources-area;
+  }
+  :nth-child(3) {
+    grid-area: state-programs-area;
+  }
+  :nth-child(4) {
+    grid-area: leadership-area;
+  }
+  :nth-child(5) {
+    grid-area: language-select-area;
+    .selectLanguageDropdown {
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      .ui.fluid.dropdown {
+        width: 150px !important;
+        white-space: nowrap !important;
+      }
+    }
+  }
+}
+.copyrightFooterSection {
+  color: $black-color;
+  height: 80px;
+  background: $secondary-dark-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  & > div {
+    display: flex;
+    justify-content: space-between;
+    & > p {
+      padding-left: 3rem;
+      cursor: pointer;
+    }
+  }
+}
