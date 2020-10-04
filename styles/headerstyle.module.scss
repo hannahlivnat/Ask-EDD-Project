@@ -1,0 +1,33 @@
+@import "./config/_colors.scss";
+.headerWrapper {
+  min-height: 278px;
+  background: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color:$primary-color;
+    font-size: 40px;
+  }
+  p {
+    padding-top: 0.2rem;
+    font-size: 18px;
+    color: $black-color ;
+  }
+  .helpsearchInput {
+    width: 600px;
+    margin-top: 1rem;
+    height: 4rem;
+    text-align: left;
+    padding: 2rem;
+    padding-left: 3rem;
+    border-radius: 100px;
+    box-shadow: $box-shadow;
+    color: $black-color ;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -1,3 +1,4 @@
+@import "./config/_colors.scss";
 html,
 body,
 #__next
@@ -17,6 +18,8 @@ a {
 
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 //Page Layout
@@ -25,7 +28,7 @@ a {
   width: 100%;
   min-height: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 90px 217px auto 207px;
+  grid-template-rows: 90px 328px auto 207px;
   grid-template-areas: 
     "navigation-area"
     "header-area"
