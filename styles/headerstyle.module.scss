@@ -1,18 +1,19 @@
+@import "./config/_colors.scss";
 .headerWrapper {
   min-height: 278px;
-  background: #F8F9FF;
+  background: $secondary-color;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   h1 {
-    color: #0558A5;
+    color:$primary-color;
     font-size: 40px;
   }
   p {
     padding-top: 0.2rem;
     font-size: 18px;
-    color: #333333;
+    color: $black-color ;
   }
   .helpsearchInput {
     width: 600px;
@@ -22,8 +23,8 @@
     padding: 2rem;
     padding-left: 3rem;
     border-radius: 100px;
-    box-shadow: 0px 9px 22px rgba(71, 71, 71, 0.1);
-    color: #333333;
+    box-shadow: $box-shadow;
+    color: $black-color ;
     border: none;
     &:focus {
       outline: none;

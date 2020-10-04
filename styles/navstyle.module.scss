@@ -1,8 +1,9 @@
+@import "./config/_colors.scss";
 .navWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 9px 22px rgba(71, 71, 71, 0.1); // discuss moving color , boxshadow values in global css
+  box-shadow: $box-shadow;
   padding: 0rem 2rem;
   & .brandLogo {
     height: 60%;
@@ -31,7 +32,7 @@
         display: flex;
         align-items: center;
         height: 100%;
-        color: #333333;
+        color: $black-color ;
         white-space: nowrap;
         &.active_link {
           cursor: pointer;
@@ -44,7 +45,7 @@
             top: 65%;
             left: 0;
             min-height: 2px;
-            background: #ffc107;
+            background: $yellow-color;
           }
         }
       }
