@@ -1,18 +1,18 @@
 .headerWrapper {
   min-height: 278px;
-  background: var(--secondary-color);
+  background: #F8F9FF;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   h1 {
-    color: var(--primary-color);
+    color: #0558A5;
     font-size: 40px;
   }
   p {
     padding-top: 0.2rem;
     font-size: 18px;
-    color: var(--black-color);
+    color: #333333;
   }
   .helpsearchInput {
     width: 600px;
@@ -22,8 +22,8 @@
     padding: 2rem;
     padding-left: 3rem;
     border-radius: 100px;
-    box-shadow: var(--box-shadow);
-    color: var(--black-color);
+    box-shadow: 0px 9px 22px rgba(71, 71, 71, 0.1);
+    color: #333333;
     border: none;
     &:focus {
       outline: none;
