@@ -26,17 +26,43 @@
   }
   :nth-child(5) {
     grid-area: language-select-area;
-    .selectLanguageDropdown {
-      width: 150px;
-      height: 40px;
-      border-radius: 10px;
-      .ui.fluid.dropdown {
-        width: 150px !important;
-        white-space: nowrap !important;
+  }
+  position: relative; // to align chat button component giving it a absolute position
+  .selectLanguageDropdown {
+    width: 130px !important;
+    white-space: nowrap;
+    font-size: 12px !important;
+    box-shadow: $box-shadow !important;
+    color: $primary-color !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+    border-color: $primary-color !important;
+
+    .ui.fluid.dropdown > .dropdown.icon {
+      padding: 8px !important;
+    }
+    div[class="divider default text"] {
+      color: $primary-color !important;
+    }
+    div[class="visible menu transition"] {
+      div[class="selected item"] {
+        color: $primary-color !important;
+        background: $white-color !important;
+        border: none !important;
+        box-shadow: none !important;
       }
     }
   }
+  p {
+    padding-bottom: 0.5rem;
+  }
+  a {
+    display: block;
+    color: $black-color;
+    padding-bottom: 10px;
+  }
 }
+
 .copyrightFooterSection {
   color: $black-color;
   height: 80px;
@@ -52,5 +78,13 @@
       padding-left: 3rem;
       cursor: pointer;
     }
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    display: block;
+    color: $black-color;
+    padding-right: 2.5rem;
   }
 }

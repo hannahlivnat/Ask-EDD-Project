@@ -2,6 +2,7 @@ import Link from "next/link";
 import style from "../styles/footerstyle.module.scss";
 import { footerLinks } from "../constants/footer_links";
 import { Dropdown } from "semantic-ui-react";
+import { ChatButton } from "./common/chat_button";
 export default function Footer() {
   return (
     <footer>
@@ -17,7 +18,7 @@ export default function Footer() {
           <p>RESOURCES</p>
           {footerLinks?.resources?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <p>{label}</p>
+              <a>{label}</a>
             </Link>
           ))}
         </div>
@@ -25,7 +26,7 @@ export default function Footer() {
           <p>STATE PROGRAMS</p>
           {footerLinks?.statePrograms?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <p>{label}</p>
+              <a>{label}</a>
             </Link>
           ))}
         </div>
@@ -33,7 +34,7 @@ export default function Footer() {
           <p>LEADERSHIP</p>
           {footerLinks?.leadership?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <p>{label}</p>
+              <a>{label}</a>
             </Link>
           ))}
         </div>
@@ -46,13 +47,14 @@ export default function Footer() {
             options={languageOptions}
           />
         </div>
+        <ChatButton />
       </div>
       <div className={style.copyrightFooterSection}>
         <p>Copyright &copy; 2020 Employment Department</p>
         <div>
           {footerLinks?.copyrightLinks?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <p>{label}</p>
+              <a>{label}</a>
             </Link>
           ))}
         </div>
