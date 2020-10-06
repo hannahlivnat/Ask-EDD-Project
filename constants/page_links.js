@@ -1,9 +1,9 @@
-export const JOBS = "/";
-export const CLAIMS = "/Claims";
-export const EMPLOYERS = "/Employers";
-export const NEWS_ROOM = "/News-Room";
-export const HELP_CENTER = "/Help-Center";
-export const CONTACT = "/Contact";
+export const JOBS = "";
+export const CLAIMS = "";
+export const EMPLOYERS = "";
+export const NEWS_ROOM = "";
+export const HELP_CENTER = "";
+export const CONTACT = "";
 export const ONLINE_SERVICES = "";
 export const LABOR_MARKET_INFORMATION = "";
 export const FORMS_PUBLICATIONS = "";

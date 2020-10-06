@@ -18,7 +18,7 @@ export default function Footer() {
           <p>RESOURCES</p>
           {footerLinks?.resources?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <a>{label}</a>
+              <p>{label}</p>
             </Link>
           ))}
         </div>
@@ -26,7 +26,7 @@ export default function Footer() {
           <p>STATE PROGRAMS</p>
           {footerLinks?.statePrograms?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <a>{label}</a>
+              <p>{label}</p>
             </Link>
           ))}
         </div>
@@ -34,7 +34,7 @@ export default function Footer() {
           <p>LEADERSHIP</p>
           {footerLinks?.leadership?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <a>{label}</a>
+              <p>{label}</p>
             </Link>
           ))}
         </div>
@@ -54,7 +54,7 @@ export default function Footer() {
         <div>
           {footerLinks?.copyrightLinks?.map(({ label, url }, idx) => (
             <Link href={url} key={idx}>
-              <a>{label}</a>
+              <p>{label}</p>
             </Link>
           ))}
         </div>
