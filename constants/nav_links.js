@@ -1,12 +1,11 @@
-export const navRoutes = {
-  JOBS: "/",
-  CLAIMS: "/Claims",
-  EMPLOYERS: "/Employers",
-  NEWS_ROOM: "/News-Room",
-  HELP_CENTER: "/Help-Center",
-  CONTACT: "/Contact",
-};
-const { JOBS, CLAIMS, EMPLOYERS, NEWS_ROOM, HELP_CENTER, CONTACT } = navRoutes;
+import {
+  JOBS,
+  CLAIMS,
+  EMPLOYERS,
+  NEWS_ROOM,
+  HELP_CENTER,
+  CONTACT,
+} from "./page_links";
 
 export const navLinks = [
   {

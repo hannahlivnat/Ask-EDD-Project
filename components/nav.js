@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/navstyle.module.scss";
-import { navLinks, navRoutes } from "../constants/nav_links";
-const { HELP_CENTER } = navRoutes;
+import { navLinks } from "../constants/nav_links";
+import { HELP_CENTER } from "../constants/page_links";
 export default function Nav() {
   return (
     <nav className={styles.navWrapper}>

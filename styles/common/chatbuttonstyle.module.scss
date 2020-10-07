@@ -1,0 +1,22 @@
+@import "../config/colors";
+.chatBtn {
+  cursor: pointer;
+  background: $primary-color;
+  color: $white-color;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  & > img {
+    padding-right: 10px;
+  }
+  font-weight: 500;
+  font-size: 18px;
+}

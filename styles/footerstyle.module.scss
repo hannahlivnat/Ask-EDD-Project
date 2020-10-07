@@ -1,0 +1,86 @@
+@import "./config//colors";
+.footerWrapper {
+  color: $black-color;
+  height: 250px;
+  padding: 3rem 2rem;
+  background: $secondary-color;
+  display: grid;
+  grid-template-columns: 30% auto auto auto auto;
+  grid-template-areas: "social-links-area resources-area state-programs-area leadership-area language-select-area";
+  :nth-child(1) {
+    grid-area: social-links-area;
+    display: flex;
+    align-items: flex-end;
+    & > img {
+      margin-right: 1rem;
+    }
+  }
+  :nth-child(2) {
+    grid-area: resources-area;
+  }
+  :nth-child(3) {
+    grid-area: state-programs-area;
+  }
+  :nth-child(4) {
+    grid-area: leadership-area;
+  }
+  :nth-child(5) {
+    grid-area: language-select-area;
+  }
+  position: relative; // to align chat button component giving it a absolute position
+  .selectLanguageDropdown {
+    width: 130px !important;
+    white-space: nowrap;
+    font-size: 12px !important;
+    box-shadow: $box-shadow !important;
+    color: $primary-color !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+    border-color: $primary-color !important;
+
+    .ui.fluid.dropdown > .dropdown.icon {
+      padding: 8px !important;
+    }
+    div[class="divider default text"] {
+      color: $primary-color !important;
+    }
+    div[class="visible menu transition"] {
+      div[class="selected item"] {
+        color: $primary-color !important;
+        background: $white-color !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+  a {
+    display: block;
+    color: $black-color;
+    padding-bottom: 10px;
+  }
+}
+
+.copyrightFooterSection {
+  color: $black-color;
+  height: 80px;
+  background: $secondary-dark-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  & > div {
+    display: flex;
+    justify-content: space-between;
+    & > p {
+      padding-left: 3rem;
+    }
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    display: block;
+    color: $black-color;
+    padding-right: 2.5rem;
+  }
+}
