@@ -1,0 +1,21 @@
+@import "./config/colors";
+.helpcenterWrapper {
+  width: 55%;
+  margin: auto;
+  .titleText {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $yellow-color;
+    margin-bottom: 4rem;
+  }
+  & > div {
+    margin-bottom: 2rem;
+  }
+  & > div:last-child {
+    margin-bottom: 6rem;
+  }
+}

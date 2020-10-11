@@ -1,9 +1,13 @@
-import Home from './index'
-import '../styles/globals.scss'
-import "semantic-ui-css/semantic.min.css"
+import "../styles/globals.scss";
+import "semantic-ui-css/semantic.min.css";
+import PropTypes from "prop-types";
 
-export default function MyApp() {
-  return (
-    <Home />
-  );
-}
+const MyApp = ({ Component, pageProps }) => {
+  return <Component {...pageProps} />;
+};
+MyApp.propTypes = {
+  pageProps: PropTypes.shape({}),
+  Component: PropTypes.elementType,
+};
+
+export default MyApp;
