@@ -27,16 +27,14 @@
       align-items: center;
       font-size: 18px;
       a {
-        pointer-events: none; // not a good way to disable link, but since link doesn't have a disable attr like button and to aviod onclick handler on each link, using this method
         position: relative;
         display: flex;
         align-items: center;
         height: 100%;
-        color: $black-color ;
+        color: $black-color;
         white-space: nowrap;
         &.active_link {
           cursor: pointer;
-          pointer-events: unset;
           font-weight: bold;
           &::after {
             content: "";

@@ -31,11 +31,11 @@ export const navLinks = [
   {
     text: "Help Center",
     path: HELP_CENTER,
-    enabled: true,
+    enabled: false,
   },
   {
     text: "Contact",
     path: CONTACT,
-    enabled: false,
+    enabled: true,
   },
 ];
