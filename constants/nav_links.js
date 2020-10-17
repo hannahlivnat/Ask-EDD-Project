@@ -36,6 +36,6 @@ export const navLinks = [
   {
     text: "Contact",
     path: CONTACT,
-    enabled: false,
+    enabled: true,
   },
 ];

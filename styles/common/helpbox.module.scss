@@ -1,0 +1,24 @@
+@import "../config/colors";
+.helpBox {
+  background: $secondary-color;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid #0558a5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  & > div {
+    display: flex;
+    align-items: center;
+    & > div {
+      padding-left: 3rem;
+      & > h4 {
+        font-size: 18px;
+      }
+      & > p {
+        font-size: 16px;
+      }
+    }
+  }
+}

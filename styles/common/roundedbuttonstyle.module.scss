@@ -1,0 +1,12 @@
+@import "../config/colors";
+.roundedBtn {
+  cursor: pointer;
+  background: $primary-color;
+  color: white;
+  height: fit-content;
+  padding: 0.8rem 1rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  width: 150px;
+}
