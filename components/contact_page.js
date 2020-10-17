@@ -1,8 +1,8 @@
 import style from "../styles/contactusstyle.module.scss";
 import { HelpBox } from "../components/common/helpBox";
-export default function HelpCenter() {
+export default function ContactPage() {
   return (
-    <div className={style.helpcenterWrapper}>
+    <div className={style.contactPageWrapper}>
       <p className={style.titleText}>Contact Us</p>
       <HelpBox
         icon='/assets/icons/wheel.svg'
