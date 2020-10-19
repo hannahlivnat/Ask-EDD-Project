@@ -1,0 +1,20 @@
+@import "../config/colors";
+.popularTopicCard {
+  background: #f8f9ff;
+  border-radius: 10px;
+  width: 290px;
+  height: 200px;
+  padding: 1.5rem 1rem;
+  & > p {
+    color: $primary-color;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  & > div {
+    color: $black-color;
+    & a {
+      color: $primary-color;
+      text-decoration: underline;
+    }
+  }
+}

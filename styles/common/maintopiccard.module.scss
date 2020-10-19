@@ -1,0 +1,15 @@
+@import "../config/colors";
+.mainTopicCard {
+  width: 210px;
+  height: 170px;
+  border: 0.5px solid $primary-color;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: $primary-color;
+  font-weight: 500;
+  padding: 0rem 4rem;
+}
